@@ -11,7 +11,7 @@ const TrashcanPage = () => {
 
   const fetchFillLevel = async () =>{
     try{
-      const response = await fetch('https://wastemanagement-back.onrender.com/api/fillLevel/AB15620266');
+      const response = await fetch('https://wastemanagement-back.onrender.com/api/fillLevel1/AB15620266');
       if (!response){
         throw new Error('failed to fetch fill level');
       }
